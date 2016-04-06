@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Initial day:</strong>
+  <%= @schedule.initial_day %>
+</p>
+
+<p>
+  <strong>Last day:</strong>
+  <%= @schedule.last_day %>
+</p>
+
+<p>
+  <strong>Play:</strong>
+  <%= @schedule.play_id %>
+</p>
+
+<%= link_to 'Edit', edit_schedule_path(@schedule) %> |
+<%= link_to 'Back', schedules_path %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  initial_day: 2016-04-05 17:38:19
+  last_day: 2016-04-05 17:38:19
+  play_id: 1
+
+two:
+  initial_day: 2016-04-05 17:38:19
+  last_day: 2016-04-05 17:38:19
+  play_id: 1
