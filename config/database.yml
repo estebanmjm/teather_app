@@ -21,9 +21,11 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default
-  database: db/production.sqlite3
-   pool: 5
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  database: teather_app
+  pool: 5
   timeout: 5000
   username: estebanmjm
 
